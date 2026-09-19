@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    margin: O;
+    padding: 40px;
+}
+
+.notes-app {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius:  12px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#noteInput {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+#noteList button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#noteList button:hover {
+    background-color: #cc0000;
+}
